@@ -1,0 +1,128 @@
+body {
+    background-color: #e0ebe8;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #1e836c;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+h2 {
+    color:#45b29a;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #45b29a;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto 0 auto;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'Roboto Serif', serif;
+    color: #545454; 
+}
+
+hr {
+    border: dotted #45b29a 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto 50px auto;
+}
+
+.top {
+    background-color: #CBEDD5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.bot_cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.prog-img {
+    position: relative;
+    top: 15px;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.back-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.ios-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.data-img {
+    position: relative;
+    top: 30px;
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.python-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #f5faf6;
+    font-size: 20px;
+    background: #45b29a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #1e836c;
+    text-decoration: none;
+  }
+
+.footer-link {
+    width: 3%;
+    margin: 25px 10px auto auto;
+  }
+
+.link {
+    text-decoration: none;
+}
